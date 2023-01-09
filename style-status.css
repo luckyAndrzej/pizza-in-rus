@@ -1,0 +1,48 @@
+.title {
+width: 1000px;
+height: 600px;
+background-color: gray;
+margin: auto;
+text-align: center;
+opacity: 0.9;
+border: 5px solid black;
+position: relative;
+}
+body {
+background-size: 100%;
+background-attachment: fixed;
+background-image: url('https://img.freepik.com/premium-photo/chef-prepares-pizza-in-the-oven-view-from-the-inside-of-the-oven-cooking-in-the-oven_564276-6428.jpg');
+filter: alpha(Opacity=70);
+font-family: "Brush Script MT", cursive;
+}
+.szagi {
+text-align: left;
+}
+li {
+padding-bottom: 5px;
+}
+.foot {
+position: absolute;
+bottom: 0;
+border: 5px solid black;
+background: #66494b;
+opacity: 0.9;
+color: black;
+}
+.kniga {
+text-align: center;
+font-weight: bold;
+color: black;
+text-decoration: none;
+}
+.obman {
+font-size: 10px;
+cursor: pointer;
+padding-bottom: 2px;
+}
+.kniga:hover {
+color: #00eaff;
+}
+.obman:hover {
+color: green;
+}

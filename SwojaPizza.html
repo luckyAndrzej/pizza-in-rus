@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Изготовление</title>
+    <link rel="stylesheet" href="style_pizza.css">
+</head>
+<body>
+<form action="handler.php">
+    <div class="big-tablica">
+
+        <div class="tablica">
+           <h3 class="title">Что будет входить в пиццу? (После выбора 3-х компонентов, каждый следующий +2 рубля)</h3>
+           <p><input type="checkbox" name="a" value="колбаса"> колбаса</p>
+           <p><input type="checkbox" name="a" value="перец"> перец</p>
+           <p><input type="checkbox" name="a" value="чесночный соус"> чесночный соус</p>
+           <p><input type="checkbox" name="a" value="лук"> лук</p>
+           <p><input type="checkbox" name="a" value="помидоры"> помидоры</p>
+        </div>
+
+        <div class="tablica">
+           <h3 class="title">Диаметр пиццы</h3>
+           <p><input type="radio" name="a">12</p>
+           <p><input type="radio" name="a">24</p>
+           <p><input type="radio" name="a">32</p>
+        </div>
+        <div class="tablica">
+            <textarea class="text-area" name="name" placeholder="Пожелания (Желательно реализуемые)"></textarea>
+        </div>
+    </div>
+</form>
+
+    <div class="otprawka">
+        <td>
+            <a class="knopka" target="_blank" href="status_zam.html">Отправить в Печь!</a>
+        </td>
+    </div>
+</body>
+</html>
